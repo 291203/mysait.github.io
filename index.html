@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простой сайт</title>
+    <title>Мой сайт</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,25 +11,52 @@
             padding: 0;
             background-color: #f0f0f0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Добро пожаловать на мой сайт!</h1>
-        <p>Это простой сайт, созданный с использованием HTML и CSS.</p>
-    </div>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </nav>
+    <section>
+        <h2>Привет, мир!</h2>
+        <p>Это пример простой веб-страницы с использованием HTML и CSS.</p>
+    </section>
+    <footer>
+        <p>© 2024 Мой сайт. Все права защищены.</p>
+    </footer>
 </body>
 </html>
